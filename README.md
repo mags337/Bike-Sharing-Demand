@@ -28,7 +28,7 @@ YEARLY: There is an inrease in demand visible from 2011 to 2012
 
 # Check models
 - Crossvalidation score (cv=5)
-- MSLE (mean square log error)/ R2:
+- RMSLE (root mean square log error)/ R2:
     (1) 0.65/ 0.76
     (2) 0.65/ 0.93
     (3) 0.65/ 0.99
@@ -38,3 +38,4 @@ YEARLY: There is an inrease in demand visible from 2011 to 2012
 ![](/Project_3/RandomForest_Model_true_pred_oneweek.png)
 ### Comparison of prediction results of linear model and random forest model
 ![](/Project_3/Linear_RF_Model_true_predtest.png)
+RandomForest model performed better than linear regression model, and lead to a kaggle (RSMLE) score of 0.442
